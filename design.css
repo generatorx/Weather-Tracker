@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgb(41, 103, 133), rgb(36, 133, 96));
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.location {
+    height: 35vh;
+    width: 100%;
+}
+
+.timezone {
+    text-align: left;
+    padding-left: 20%;
+}
+
+.location .icon {
+    margin-left: 65%;
+}
+
+.degree-section {
+    display: flex;
+    margin-bottom: 20%;
+    justify-content: center;
+}
+
+.degree-section .degree {
+    font-size: 3rem;
+}
+
+.degree-section span {
+    font-size: 2.5rem;
+    padding-left: 7%;
+    opacity: 0.6;
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+
+.celcius {
+    width: 6rem;
+	height: 2.5rem;
+	background:none;
+	border: none;
+	color: 	white;
+	background-color: #2f8abe;
+	border-radius: 0.6rem;
+	cursor: pointer;
+    font-size: 15px;
+    margin-right: 1.0rem;
+}
+
+.celcius:hover {
+    opacity: 0.8;
+}
+
+.fahrenheit {
+    width: 6rem;
+	height: 2.5rem;
+	background:none;
+	border: none;
+	color: 	white;
+	background-color: #2f8abe;
+	border-radius: 0.6rem;
+	cursor: pointer;
+    font-size: 15px;
+}
+
+.fahrenheit:hover {
+    opacity: 0.8;
+}
+
+.description h2 {
+    opacity: 0.85;
+}
